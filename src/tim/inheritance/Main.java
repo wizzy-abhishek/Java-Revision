@@ -2,7 +2,11 @@ package tim.inheritance;
 
 public class Main {
     public static void main(String[] args) {
-        SchoolStudent abhishek = new SchoolStudent("Abhishek" , "21" , "Ajay" , "10" , "TIT");
+        SchoolStudent abhishek = new SchoolStudent("Abhishek" ,
+                "21" ,
+                "Ajay" ,
+                "10" ,
+                "TIT");
         abhishek.details();
     }
 }
@@ -31,8 +35,8 @@ class Child {
 }
 
 class Student extends Child{
-    private String parentName ;
-    private String standard ;
+    private final String parentName ;
+    private final String standard ;
 
     public Student(String name, String age, String parentName, String standard) {
         super(name, age);
