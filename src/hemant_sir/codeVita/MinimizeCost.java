@@ -3,7 +3,6 @@ package hemant_sir.codeVita;
 public class MinimizeCost {
 
     public static void main(String[] args) {
-
         minimizingCost(new int[]{3, -1, -2}, 1);
     }
 

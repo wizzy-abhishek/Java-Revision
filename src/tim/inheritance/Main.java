@@ -2,7 +2,7 @@ package tim.inheritance;
 
 public class Main {
     public static void main(String[] args) {
-        SchoolStudent abhishek = new SchoolStudent("Abhishek" ,
+        var abhishek = new SchoolStudent("Abhishek" ,
                 "21" ,
                 "Ajay" ,
                 "10" ,
